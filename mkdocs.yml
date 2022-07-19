@@ -1,9 +1,17 @@
-site_name: My Docs
+site_name: Aware Technical Documentation
+site_url: https://kallol-cognizant.github.io/mkdocs/
+site_description: Aware Technical Documentation
+site_author: Kallol Das
 
-# mkdocs.yml
+repo_url: https://github.com/kallol-cognizant/mkdocs
+
+copyright: Copyright &copy; 2022 <a href="https://twitter.com/_tomchristie">Tom Christie</a>, <a href="http://www.dougalmatthews.com/">Dougal Matthews</a>.
+
 theme:
-  name: "material"
+    name: bootstrap
+
+nav:
+    - Home: index.md
 
 plugins:
-- search
-- mkdocstrings
+    - search

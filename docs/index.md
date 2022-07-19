@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# MkDocs Bootstrap Theme
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This project provides a Bootstrap theme is for the [MkDocs] project.
 
-## Commands
+## Installation
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Install the theme with pip:
 
-## Project layout
+    pip install mkdocs-bootstrap
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+After the theme is installed, edit your [mkdocs.yml] file and set the theme
+[name] to `bootstrap`:
+
+    theme:
+        name: bootstrap
+
+## Example
+
+This [documentation] is rendered with the Bootstrap theme.
+
+![Bootstrap](bootstrap-example-fluid.png)
+
+
+[MkDocs]: https://www.mkdocs.org
+[mkdocs.yml]: https://www.mkdocs.org/user-guide/configuration/
+[name]: https://www.mkdocs.org/user-guide/configuration/#name
+[documentation]: https://mkdocs.github.io/mkdocs-bootstrap/
