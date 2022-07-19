@@ -1,4 +1,9 @@
 site_name: My Docs
 
+# mkdocs.yml
 theme:
-  material
+  name: "material"
+
+plugins:
+- search
+- mkdocstrings
